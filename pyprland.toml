@@ -1,0 +1,46 @@
+[pyprland]
+plugins = [
+  "scratchpads",
+  "lost_windows",
+  "monitors",
+  "toggle_dpms",
+  "magnify",
+  "expose",
+  "shift_monitors",
+  "workspaces_follow_focus",
+]
+
+[workspaces_follow_focus]
+max_workspaces = 9
+
+[expose]
+include_special = true
+
+[scratchpads.term]
+command = "kitty --class kitty-dropterm"
+animation = "fromTop"
+margin = 50
+unfocus = "hide"
+size = "100% 80%"
+max_size = "1920px 100%"
+
+[scratchpads.volume]
+command = "pavucontrol"
+animation = "fromRight"
+class = "pavucontrol"
+lazy = true
+size = "40% 70%"
+
+[scratchpads.bpytop]
+command = "kitty --class kitty-spt -e bpytop"
+animation = "fromRight"
+class = "kitty-bpytop"
+lazy = "true"
+size = "70% 50%"
+
+[scratchpads.emacs]
+command = "kitty --class kitty-emacs -e emacsclient -t"
+animation = "fromRight"
+class = "true"
+size = "70% 50%"
+lazy = true 

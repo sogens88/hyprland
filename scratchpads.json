@@ -1,0 +1,17 @@
+[scratchpads.term]
+command = "kitty --class kitty-dropterm"
+animation = "fromTop"
+margin = 50
+unfocus = "hide"
+size = "75% 60%"
+max_size = "1920px 100%"
+
+[scratchpads.volume]
+command = "pavucontrol"
+animation = "fromRight"
+class = "pavucontrol"
+lazy = flase
+size = "40% 90%"
+
+
+
