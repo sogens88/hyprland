@@ -1,0 +1,1 @@
+Hyprland on Arch Linux
